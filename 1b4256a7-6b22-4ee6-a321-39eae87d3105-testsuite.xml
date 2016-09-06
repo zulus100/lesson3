@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">РасчетВозрастаЧеловекаВмесяцах</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63608672469847" stop="63608672470320" status="failed">
+			<name>Получение возраста сотрудника в месяцах родившегося 08.03.1978</name>
+			<failure>
+				<message>{ВнешняяОбработка.РасчетВозрастаЧеловекаВмесяцах.Форма.Форма.Форма(83)}: Метод объекта не обнаружен (ПолучитьВозрастСотрудникаВМесяцах); ИмяФайла=C:\repo\Lesson2\feature\step_definitions\РасчетВозрастаЧеловекаВмесяцах.epf, ИмяПроцедуры=ВозрастСотрудникаВМесяцахБудетРавен</message>
+			</failure>
+			<steps>
+				<step start="63608672470185" stop="63608672470186" status="passed">
+					<name>Допустим Есть дата рождения сотрудника равная '1978-03-08'</name>
+					<title>Допустим Есть дата рождения сотрудника равная '1978-03-08'</title>
+				</step>
+				<step start="63608672470305" stop="63608672470320" status="failed">
+					<name>Тогда Возраст сотрудника в месяцах будет равен 461</name>
+					<title>Тогда Возраст сотрудника в месяцах будет равен 461</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Получение возраста сотрудника в месяцах родившегося 08.03.1978"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="РасчетВозрастаЧеловекаВмесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
